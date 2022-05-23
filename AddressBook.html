@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AddressBook</title>
+    <link rel="stylesheet" href="AddressBook.css">
+</head>
+<body>
+<div class="Area">
+    <div class="LeftArea">
+        <div class="LeftTopArea" >
+            <table border="1" class="PersonalStyle">
+                <th colspan="2">개인정보</th>
+                <tr><!-- 첫번째 줄 시작 -->
+                    <td>
+                        개&nbsp;인&nbsp;명&nbsp;:
+                    </td>
+                    <td>
+                        <input type="text" name="EDIT_NAME">
+                    </td>
+                </tr><!-- 첫번째 줄 끝 -->
+                <tr><!-- 두번째 줄 시작 -->
+                    <td>
+                        &nbsp;&nbsp;주&nbsp;소&nbsp;&nbsp;:
+                    </td>
+                    <td>
+                        <input type="text" name="EDIT_ADDRESS">
+                    </td>
+                </tr><!-- 두번째 줄 끝 -->
+                <tr><!-- 두번째 줄 시작 -->
+                    <td>
+                        전화&nbsp;번호&nbsp;:
+                    </td>
+                    <td>
+                        <select name="SELECT_FRONTNUMBER" style=width:60px;>
+                            <option vlaue="NULL">
+
+                            </option>
+                            <option vlaue="02">
+                                02
+                            </option>
+                            <option vlaue="031">
+                                031
+                            </option>
+                        </select>
+                        <input type="text" name="EDIT_PHONENUMBER">
+                    </td>
+                </tr><!-- 두번째 줄 끝 -->
+                <tr><!-- 두번째 줄 시작 -->
+                    <td>
+                        이메일주소&nbsp;:
+                    </td>
+                    <td>
+                        <input type="text" name="EDIT_EMAIL">
+                        @
+                        <Select name="도메인" name="SELECT_DOMAIN">
+                            <option value="NULL">
+
+                            </option>
+                            <option value="naver.com">
+                                naver.com
+                            </option>
+                            <option value="daum.net">
+                                daum.net
+                            </option>
+                        </Select>
+                    </td>
+                </tr><!-- 두번째 줄 끝 -->
+            </table>
+        </div>
+
+        <div class="LeftBottomArea">
+            <table border="1" class="PersonalStyle">
+                <!--<caption>ListViewCtrl</caption>-->
+                <thread>
+                    <th class="NumberCellStyle">번호</th>
+                    <th class="NameCellStyle">성명</th>
+                    <th class="AddressCellStyle">주소</th>
+                    <th class="TelephoneNumberCellStyle">전화번호</th>
+                    <th class="EmailAddressCellStyle">이메일주소</th>
+                </thread>
+                <tBody>
+                <tr><!-- 첫번째 줄 시작 -->
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        5
+                    </td>
+                </tr><!-- 첫번째 줄 끝 -->
+                <tr><!-- 두번째 줄 시작 -->
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        5
+                    </td>
+                </tr><!-- 두번째 줄 끝 -->
+                <tr><!-- 두번째 줄 시작 -->
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        5
+                    </td>
+                </tr><!-- 두번째 줄 끝 -->
+                <tr><!-- 두번째 줄 시작 -->
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        5
+                    </td>
+                </tr><!-- 두번째 줄 끝 -->
+                </tBody>
+            </table>
+        </div>
+    </div>
+    <div class="RightArea">
+        <div class="RightTopArea">
+            <div>
+                <input type="button" name="BUTTON_RECORD" value="기재하기" class="ButtonStyle">
+            </div>
+            <div>
+                <input type="button" name="BUTTON_RECORD" value="첮&nbsp;&nbsp;기" class="ButtonStyle">
+            </div>
+            <div>
+                <input type="button" name="BUTTON_RECORD" value="고&nbsp;치&nbsp;기" class="ButtonStyle">
+            </div>
+            <div>
+                <input type="button" name="BUTTON_RECORD" value="지&nbsp;우&nbsp;기"class="ButtonStyle">
+            </div>
+            <div>
+                <input type="button" name="BUTTON_RECORD" value="정리하기"class="ButtonStyle">
+            </div>
+        </div>
+
+        <div class="RightBottomArea"></div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+.Area::after{
+    content: ''; clear: both; display: block;
+}
+.Area{
+    border: 2px solid black;
+    padding: 10px;
+    height: 95vh;
+}
+
+.LeftArea{
+    float: left;
+    width: calc(75% - 10px);
+}
+.RightArea{
+    float: right;
+    width: calc(25% - 5px);
+}
+
+.LeftTopArea{
+    height: calc((95vh - 10px) / 4 * 3);
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.LeftBottomArea{
+    height: calc((95vh - 10px) / 4);
+    border: 1px solid black;
+}
+
+.RightTopArea{
+    height: calc((95vh - 10px) / 4 * 3);
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.RightBottomArea{
+    height: calc((95vh - 10px) / 4);
+    border: 1px solid black;
+}
+
+.PersonalStyle{
+    width: calc(95%);
+    height: calc(95%);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.CellStyle{
+    width: calc(95%);
+    height: calc(95%);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ButtonStyle{
+    width: calc(90%);
+    height: calc((95vh - 10px) / 4 / 3);
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:block;
+}
+
+.NumberCellStyle{
+    width: calc(5%);
+}
+
+.NameCellStyle{
+    width: calc(10%)
+}
+
+.AddressCellStyle{
+    width: calc(40%)
+}
+
+.TelephoneNumberCellStyle{
+    width: calc(15%)
+}
+
+.EmailAddressCellStyle{
+    width: calc(40%)
+}
